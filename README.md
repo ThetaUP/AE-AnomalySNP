@@ -83,7 +83,7 @@ There are three AE models of diffrent complexity: S, M, and L. Each model has th
 
 - Optionally, if you wish to monitor the training using Neptune.ai, include your Neptune token:
     ```python
-    import neptune.new as neptune
+    import neptune
 
     run = neptune.init_run(
         project="your_project_name",
