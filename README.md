@@ -110,7 +110,6 @@ In this project, two models—**Isolation Forest** and **Support Vector Machine 
 - **SVM (Support Vector Machine):** Used here for one-class classification in anomaly detection, with grid parameters such as `kernel`, and `gamma` that can be fine-tuned.
 
 Adjust the grid search parameters in the `iso_params` or `svm_params` variables to suit your dataset and objectives.
-    ```
 
 ## Contributing
 
