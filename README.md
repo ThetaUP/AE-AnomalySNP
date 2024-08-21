@@ -55,7 +55,7 @@ To prepare the input data, follow the approach suggested in the paper, which inc
     install.packages("FactoMineR")
     ```
 
-- Use the following R script to perform FAMD analysis and prepare the data. Make sure You are using the suitable number of PCs (ncp) and optionally add the label variable (sup.var):
+- Use the following R script to perform FAMD analysis and prepare the data. Make sure You are using the suitable number of PCs `ncp` and optionally add the label variable `sup.var`:
     ```r
     library(FactoMineR)
 
@@ -79,6 +79,15 @@ There are three AE models of diffrent complexity: S, M, and L. Each model has th
     data_train = pd.read_csv('sample_train_data.csv')
     
     data_test = pd.read_csv('sample_test_data.csv')
+
+    # In result_test function:
+
+    data_test_org = pd.read_csv('data/sample_test_data.csv')
+    ```
+- Set the number of analysed PCs from the FAMD step. **Note**: by default every second PCs is analised:
+
+    ```python
+    N_PCAs = 23
     ```
 
 - Optionally, if you wish to monitor the training using Neptune.ai, include your Neptune token:
