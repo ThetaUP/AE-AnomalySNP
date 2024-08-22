@@ -112,7 +112,7 @@ Once the models are trained, use the provided anomaly detection script to assign
 
 In this project, two models—**Isolation Forest** and **Support Vector Machine (SVM)**—are used for anomaly detection. Both models can be fine-tuned using grid search to optimize their parameters.
 
-- Two scripts are aviable IsolationForest: `scripts/anomaly_detection/GRID_ISO_label_script.py` and SVM: `scripts/anomaly_detection/GRID_SVM_label_script.py`:
+- Two scripts are available, IsolationForest: `scripts/anomaly_detection/GRID_ISO_label_script.py` and SVM: `scripts/anomaly_detection/GRID_SVM_label_script.py`:
 
 - **Isolation Forest:** A model specifically designed for anomaly detection in high-dimensional datasets. Grid parameter include `n_estimators`.
   
