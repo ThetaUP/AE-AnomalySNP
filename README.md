@@ -36,8 +36,8 @@ Three different AE models, designated as S, M, and L, are trained on different s
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/repository-name.git
-    cd repository-name
+    git clone https://github.com/kotlarzkrzysztof/AE-AnomalySNP.git
+    cd AE-AnomalySNP
     ```
 
 2. Install the required Python packages:
