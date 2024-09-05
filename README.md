@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13697011.svg)](https://doi.org/10.5281/zenodo.13697011)
+
 ## Introduction
 
 The project aims to investigate how sequence context impacts SNP genotype calling errors in WGS data. We use autoencoder (AE) models to detect anomalies in genotype call data. By reconstructing input sequences and analyzing the reconstruction errors, we identify potential errors influenced by sequence context.
